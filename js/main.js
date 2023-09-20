@@ -3,7 +3,7 @@ let show = document.querySelector(".showDay");
 let locationTemp = document.querySelector(".city-temp");
 let iconTemp = document.querySelector("#today-icon");
 let copRighter = document.querySelector(".copyright");
-copRighter.textContent = `Copyright © ${new Date().getFullYear()} Designed . All rights reserved`;
+copRighter.textContent = `Copyright © ${new Date().getFullYear()} Designed By Menna Eladl . All rights reserved`;
 search.addEventListener("keydown", function () {
   getLocation(search.value);
 });
